@@ -6,7 +6,7 @@ int SelectionSort(int Array[],int Array_size)
 	int min = 0;
 	for (int i = 0; i <= Array_size-1 ; i++)
 	{
-		Array[i] = min;
+		min=Array[i];
 		for (int j = Array_size - 1; j >= i; j--)
 		{
 			if (Array[j] < min)
