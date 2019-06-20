@@ -1,5 +1,10 @@
 #include<stdio.h>
-
+/**
+* @brief 選択ソートを使って昇順にする
+* @param Array[]　配列
+* @param Array_size　配列サイズ
+* @return int
+*/
 int SelectionSort(int Array[],int Array_size)
 {
 	int temp = 0;
@@ -20,6 +25,7 @@ int SelectionSort(int Array[],int Array_size)
 	}
 	return 0;
 }
+
 
 int main()
 {
